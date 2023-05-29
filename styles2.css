@@ -1,0 +1,75 @@
+/* Reset default button styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-image: url("Pasaulis1-4.jpg");
+  opacity: 100%;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+button,
+a.button {
+  border: none;
+}
+
+/* Button styles */
+.button-container {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 16px 32px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: #fff;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.button:hover {
+  background-color: #45a049;
+  color: #fff; /* Added to ensure text color remains visible on hover */
+}
+
+.button:active {
+  background-color: #3e8e41;
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+h1,
+p {
+  margin-top: 5em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  line-height: 1.5;
+}
+
+.content {
+  text-align: center;
+}
